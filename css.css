@@ -1,39 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
-header{
-    
 }
 
-.contener{
+header {}
+
+.contener {
     width: 100%;
     max-width: 1240px;
     margin: auto;
 }
 
-.site_header{
+.site_header {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
 }
 
-.header_top{
+.header_top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header_center a{
+.header_center a {
     display: flex;
     gap: 40px;
 }
